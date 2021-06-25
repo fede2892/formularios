@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Formularios</h1>
+    <form action="" method="GET">
+        <label for="nombre">Nombre: </label>
+        <input type="text" name="nombre" id="nombre">
+        <br>
+        <label for="apellido">Apellido: </label>
+        <input type="text" name="apellido" id="apellido">
+        <br>
+        <label for="edad">Edad: </label>
+        <input type="number" name="edad" id="edad">
+        <br>
+        <label for="paises">País: </label>
+        <select name="paises" id="pais">
+            <option value="ar">Argentina</option>
+            <option value="br">Brasil</option>
+            <option value="bo">Bolivia</option>
+            <option value="ch">Chile</option>
+            <option value="co">Colombia</option>
+            <option value="ur">Uruguay</option>
+        </select>
+        <br>
+        <p>Sexo: </p>
+        <input type="radio" name="sexo" id="masc">
+        <label for="masc">Masculino</label>
+        <input type="radio" name="sexo" id="fem">
+        <label for="fem">Femenino</label>
+        <input type="radio" name="sexo" id="noCon">
+        <label for="otro">Prefiero no contestar</label>
+        <br>
+        <p>Hobbies: </p>
+        <input type="checkbox" name="futbol" id="futbol">
+        <label for="futbol">Futbol</label>
+        <br>
+        <input type="checkbox" name="basquet" id="basquet">
+        <label for="basquet">Basquetbol</label>
+        <br>
+        <input type="checkbox" name="tenis" id="tenis">
+        <label for="tenis">Tenis</label>
+        <br>
+        <input type="checkbox" name="beisbol" id="beisbol">
+        <label for="beisbol">Beisbol</label>
+        <br>
+        <input type="checkbox" name="otro" id="otro">
+        <label for="otro">Otro</label>
+        <br>
+        <p></p>
+        <input type="button" value="Enviar información" id="valid" onclick="validar()">
+    </form>
+    <script src="js/engine.js"></script>
+</body>
+</html>
